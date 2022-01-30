@@ -1,0 +1,15 @@
+body {
+    background-color: lavenderblush;
+    
+    
+}
+.fancybutton {
+    width: 125px;
+    height: 30;
+    background-color: azure;
+    border-radius: 100px;
+    border-color: blueviolet;
+}
+.center {
+    text-align: center;
+}
