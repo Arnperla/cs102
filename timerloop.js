@@ -26,3 +26,16 @@ function Countdown() {
         }
     }
 }
+// function created to play david bowie
+function playbowie(){
+    mysound = new sound("David_Bowie.mp3");
+    mysound.play();
+}
+//used to create audio element
+function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    // used to play sound files
+    this.play = function(){}
+        this.sound.play();
+    }
