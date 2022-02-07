@@ -1,0 +1,15 @@
+body {
+    /* used to change background to grey*/
+    background-color: rgb(110, 110, 110);
+    /* used to align text in the center */
+    text-align: center; 
+    
+}
+text {
+    color: aqua;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}

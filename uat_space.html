@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Arnold Perla -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+<!-- internal css used to center-->
+    <style>
+        .container { 
+          height: 200px;
+          position: relative;
+          border: 3px solid rgb(25, 26, 25); 
+        }
+        
+        .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        </style>
+        <!-- script used to pull java file-->
+<script src="uat_space_loop.js"></script>
+<!-- heading for page-->
+    <h1>UAT SPACE PROGRAM</h1>
+</head>
+<body>
+      <!-- used to pull uat space program photo-->
+    <img src="space_logo.jpg" alt="UAT space logo" class="center">
+    <p id="loginStatus" class="text">Status of login...</p>
+    <br>
+    <!-- used to create a form for user input-->
+    <form id="credSubmit" onsubmit="return false">
+      <!--creates label and input box for first name section of login-->
+        First Name:     <input type="text" id="fName" /> <br>
+        <!--creates label and input box for last name section of login-->
+        Last Name:      <input type="text" id="lName" /> <br>
+        <!--creates badge number label and input box for section of login-->
+        Badge Number:   <input type="number" id="badgeID" /> <br>
+        <!-- makes use of login function in java-->
+        <input type="submit" onclick="login();" />
+    </form>
+    
+    
+ 
+
+</body>
+</html>
